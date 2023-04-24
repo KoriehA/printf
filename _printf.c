@@ -1,7 +1,6 @@
 #include "main.h"
 
 void print_buffer(char buffer[], int *buff_ind);
-
 /**
  * _printf - Outputs a formatted string.
  * @format: Character string to print - may contain directives.
@@ -51,7 +50,6 @@ int _printf(const char *format, ...)
 
 	return (printed_chars);
 }
-
 /**
  * print_buffer - Prints the contents of the buffer if it exist
  * @buffer: Array of chars
